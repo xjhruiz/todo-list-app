@@ -11,6 +11,7 @@ class ApiTasks
     public function getTask()
     {
         header('Content-Type: application/json');
+        $this->checkTokenJTW();
         $listTasks = array();
         $listTasks['listTask'] = array();
         $response = $this->model->listTask('tasks');
