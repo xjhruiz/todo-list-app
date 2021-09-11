@@ -4,6 +4,7 @@ pequeño todo-list-app orientado a api con jwt para dar mayor seguridad a los en
 Evitamos que se pueda modificar desde postman.
 
 <p>Lo hize en php puro, no soy capaz de aprender un framewrok en 3 días, y menos uno como Zend Framework, con sus diferentes configuraciones, almenos consegí instalarlo en local :->, lo siento.   </p>
+<p>Me queda pendiente asignar tareas a grupos y tareas a usuarios </p>
 
 Para la instalación de este proyecto en local se creó un virtual host en local que apunta a la carpeta src/web
 ```
