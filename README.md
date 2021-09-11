@@ -3,7 +3,7 @@
 pequeño todo-list-app orientado a api con jwt para dar mayor seguridad a los endpoints y que no se puedan modificar los recursos si no se tiene el token, 
 Evitamos que se pueda modificar desde postman.
 
-Para la instalación de este proyecto en local se creó un virtual host en local que apunte a la carpeta src/web
+Para la instalación de este proyecto en local se creó un virtual host en local que apunta a la carpeta src/web
 ```
 <VirtualHost *:80>
 	ServerName todolist.com
