@@ -30,7 +30,7 @@
                 <nav class="menu">
                     <ul class="menu-item">
                         <li class="menu-subitem"><a href="/login"><span class="active">Acceso</span></a></li>
-                        <li class="menu-subitem"><a href="/aboutme"><span>About Me</span></a></li>
+                      <li class="menu-subitem"><a href="/getTask" target="_blank" ><span>EndPoint GetTasks</span></a></li>
                     </ul>
                 </nav>
             </div>
