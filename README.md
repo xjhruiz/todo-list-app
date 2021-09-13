@@ -7,6 +7,7 @@ Evitamos que se pueda modificar desde postman.
 <p>Lo hize en php puro, no soy capaz de aprender un framewrok en 3 días, y menos uno como Zend Framework, con sus diferentes configuraciones, y componentes, almenos consegí instalarlo en local :->.    </p>
 <p>Me queda pendiente asignar tareas a grupos y tareas a usuarios y usuarios a grupos </p>
 ```javascript
+
 //la parte de asginar las tareas a los usuarios y a los grupos no lo implemente, 
     // es un simple todolist que en un principio como lo implementé fue añadir tareas y modificar el estado de estas tareas de pendiente a completada, 
     // y poder eliminar aquellas que no quiera tenerlas registradas
@@ -16,6 +17,7 @@ Evitamos que se pueda modificar desde postman.
     // además un usuario puede pertenecer a un grupo o a varios, otra relación que implica la creación de una tabla auxiliar en la que se registre el id del usuario y el id del grupo
     // toda esta complejidad añadida implicaría crear más vistas, una que me permita asociar la tarea a un grupo o a un usuario, 
     // y un usuario a un grupo.
+    
 ```
 
 
