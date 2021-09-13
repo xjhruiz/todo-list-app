@@ -7,6 +7,11 @@ Evitamos que se pueda modificar desde postman.
 <p>Me queda pendiente asignar tareas a grupos y tareas a usuarios y usuarios a grupos </p>
 <p>Además de los test unitarios </p>
 
+Gracias por todo, y el feedback que me dió. 
+Todo esto me está sirviendo para darme cuenta que me queda mucho que mejorar, y que trabajar con un framework no es solo llamar a 3 métodos. 
+Esta experiencia me ha servido bastante, y esta oportunidad para evolucionar y mejorar como profesional. 
+Gracias por todo.
+
 Para la instalación de este proyecto en local se creó un virtual host en local que apunta a la carpeta src/web
 ```
 <VirtualHost *:80>
