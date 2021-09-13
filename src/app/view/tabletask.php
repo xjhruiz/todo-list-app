@@ -4,7 +4,6 @@
         <th>Nombre</th>
         <th>Descripción</th>
         <th>Estado</th>
-        <th>Asignar</th>
         <th>Acción </th>
     </thead>
     <tbody id="">
@@ -28,24 +27,6 @@
                             <?php }
                             } ?>
                         </select>
-                    </td>
-                    <td>
-                        <div class="acciones-contenedor">
-                            <label class="labelAsignar" for="asignarGrupo">Asignar Grupos</label>
-                            <select class="asignar-grupo estadosSelect" name="asignarGrupo" id="asignarGrupo">
-                                <option selected value="0">ASIGNE UN GRUPO</option>
-                                <?php foreach ($params['listGroups']  as $group) { ?>
-                                    <option value="<?= $group['id'] ?>"><?= strtoupper($group['nombre']) ?></option>
-                                <?php } ?>
-                            </select>
-                            <label class="labelAsignar" for="asignarGrupo">Asignar Usuario</label>
-                            <select class="asignar-grupo estadosSelect" name="asignarGrupo" id="asignarGrupo">
-                                <option selected value="0">ASIGNE UN USUARIO</option>
-                                <?php foreach ($params['listUsers'] as $user) { ?>
-                                    <option value="<?= $user['id'] ?>"><?= $user['nombreUsuario'] ?></option>
-                                <?php } ?>
-                            </select>
-                        </div>
                     </td>
                     <td>
                         <div class="acciones-contenedor">
